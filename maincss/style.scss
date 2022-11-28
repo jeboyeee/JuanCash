@@ -1,0 +1,1833 @@
+@font-face {
+    font-family: "arial";
+    src: url('../fonts/arial.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Montserrat-Med";
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Montserrat-Reg";
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Montserrat-Sem";
+    src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+}
+
+
+body {
+    overflow-x: hidden;
+
+    h1 {
+        font-family: Montserrat-Sem;
+    }
+
+    .learn {
+        font-family: Montserrat-Med !important;
+    }
+}
+
+
+.navbar {
+
+    background-color: #2ac4f3;
+
+    // ul .dropdown-menu {
+    //     background-color: #0046d4;
+
+    // }
+
+    ul .dropdown-menu {
+        // background-color: #f8f8f8;
+        // background-color: #2ac4f3;
+        background-color: #3a3a3a;
+
+    }
+
+    li hr {
+        background-color: white;
+    }
+}
+
+
+
+.navbar ul li {
+    a {
+        font-family: arial;
+    
+        font-size: 18px;
+        transition: all 500ms ease;
+
+    }
+
+    a:hover {
+        color: #0046d4 !important;
+    }
+}
+
+.navbar ul li a.dropdown-item {
+  color: white;
+// color: #0046d4;
+}
+
+.navbar ul li a.dropdown-item:hover {
+ 
+    background-color: #2ac4f3;
+    // color: white !important;
+    color: #0046d4;
+}
+
+
+// Header -------
+#main {
+    // background-image: url('../img/hero-bannerbg3.jpg');
+    // background-position: center center;
+    // background-size: cover;
+    // min-height: 750px;
+
+    .let {
+        
+        h1 {
+        padding-top: 80px;
+        color: white;
+        font-size: 50px;
+        }
+
+        p {
+
+        font-family: Montserrat-Light;
+        color: white;
+        font-size: 40px;
+        line-height: 50px;
+        }
+    }
+
+    hr {
+        border: 3px solid white;
+        background-color: white;
+        width: 150px;
+        margin-left: 0;
+    }
+
+    .astore {
+        margin-left: 20px;
+    }
+    
+}
+
+.cp {
+    max-width: auto;
+    max-height: 80%;
+    margin-top: 60px;
+ }
+
+
+@media (max-width: 991px) {
+    
+    #main .cp {
+      
+        padding-top: 80px;
+    }
+
+   #main .let h1 {
+       font-size: 45px;
+       padding-top: 130px;
+   }
+   #main .let p {
+    font-size: 30px;
+    line-height: 35px;
+}
+}
+
+@media (max-width: 767px) {
+    #main .cp {
+        display: none;
+    }
+
+    #main {
+        text-align: center;
+
+        hr {
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+    }
+
+    #main .let h1 {
+        font-size: 50px !important;
+        // padding-top: 130px;
+    }
+    #main .let p {
+     font-size: 40px !important;
+     line-height: 40px !important;
+ }
+}
+
+
+@media (max-width: 551px) {
+    
+    #main .let p {
+     font-size: 30px !important;
+     line-height: 35px;
+ }
+ }
+
+ @media (max-width: 432px) {
+    #main {
+        
+       .let h1 {
+           font-size: 40px !important;
+       }
+    }
+
+ }
+
+ @media (max-width: 350px) {
+    #main {
+        
+       .let h1 {
+           font-size: 35px !important;
+       }
+
+       .let p {
+           font-size: 23px !important;
+       }
+    }
+
+ }
+
+ @media (max-width: 348px) {
+  
+ #main {
+     .astore {
+         margin-left: 0px;
+     }
+ }
+
+ }
+
+
+
+ //header close -----
+
+// open section1------------------------
+ .section1 {
+     background-color: #f8f8f8;
+
+    h1 {
+        color: #00318a;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin-left: 0;
+    }
+     
+    p {
+      font-family: Montserrat-Reg;
+      font-size: 18px;
+      color: #00318a;
+      }
+ }
+
+ @media (max-width: 767px) {
+   .section1 {
+      text-align: center;
+
+      .line {
+          margin: auto;
+      }
+   }
+ }
+
+ // close section1------------------------
+
+ .mainsection2 {
+     padding: 60px;
+     background-color: white;
+     color: #00318a;
+     text-align: center;
+    
+     z-index: 1;
+     img {
+         padding-top: 20px;
+         height: 150px;
+         text-align: center;
+     }
+
+ }
+
+
+ // open section3 JuanCash Card----------
+.section3 {
+    overflow: hidden;
+
+    .card1 {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+    }
+
+    .card2 {
+        width: 70%;
+        height: auto;
+        display: block;
+        margin-right: auto;
+    }
+
+
+
+
+    .learn {
+        background-color:white;
+        -moz-border-radius: 39px;
+        -webkit-border-radius: 39px;
+        border-radius: 39px;
+        border: 2px solid white;
+        display:inline-block;
+        cursor:pointer;
+        color: #00318a;
+        font-family: Montserrat-Sem;
+        font-size: 14px;
+        padding: 7px 42px;
+        text-decoration:none;
+        transition: 0.35s;
+        
+        margin-bottom: 0 !important;
+    }
+    .learn:hover {
+        border: 2px solid #f7b716;
+        background-color:#f7b716;
+        color: white;
+    }
+
+
+    .text {
+        color: white;
+        // text-align: end;
+       
+    }
+
+    p {
+        font-family: Montserrat-Reg;
+        font-size: 18px;
+        }
+
+    h3 {
+        font-family: Montserrat-Med;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color:#f7b716;
+        width: 100px;
+        // margin-left: auto;
+    }
+
+}
+
+
+.jccard {
+    h1 {
+        font-family: Montserrat-Med;
+
+    }
+}
+
+.jccard_header {
+    background: url('../img/jccardbg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.jcintro {
+padding: 70px;
+}
+
+@media (max-width: 523px) {
+    .jcintro h1 {
+       font-size: 30px;
+    }
+}
+
+.cardsection1 {
+    background-color: #f8f8f8;
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+
+   h4 {
+        font-family: Montserrat-Reg;
+        line-height: 40px;
+    }
+}
+
+.cardsection2 {
+    background-color: #f8f8f8;
+    
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+    
+    h2 {
+        line-height: 35px;
+        font-family: Montserrat-Med;
+        color: #282828;
+      
+    }
+
+    .numcard {
+        color: #00318a;
+    }
+
+    p {
+        font-family: Montserrat-Reg;
+        overflow-wrap: break-word;
+   
+    }
+
+
+}
+
+.card_jc {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    transition: all .2s ease-in-out;
+    border-radius: 8px;
+
+}
+
+.card_jc:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+
+@media (max-width: 1199px) {
+    .secondcard {
+        display: none;
+    }
+
+    .card1 {
+        width: 50% !important;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .firstcard {
+       
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .section3 {
+        text-align: center;
+    }
+    .line {
+        margin: auto !important;
+        margin-bottom: 15px !important;
+        margin-top: 15px !important;
+    }
+
+    .text {
+        padding-top: 30px;
+    }
+}
+
+
+
+.parallax {
+ background: url('../img/jccardbg.jpg') no-repeat center;
+ background-size: cover;
+//  background-attachment: fixed;
+//  height: 600px;
+
+
+ }
+ // close section3 JuanCash Card----------
+
+
+
+ //open section4 VCE-------------
+ .section4 {
+    //  background-color: #22baeb;
+    background-color: #f8f8f8;
+     color: #00318a;
+
+     
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin-left: 0;
+    }
+
+     .learn {
+        background-color:#00318a;
+        
+        -moz-border-radius: 39px;
+        -webkit-border-radius: 39px;
+        border-radius: 39px;
+        border: 2px solid #00318a;
+        display:inline-block;
+        cursor: not-allowed;
+        color: white;
+        font-family: Montserrat-Sem;
+        font-size: 14px;
+        padding: 7px 42px;
+        text-decoration:none;
+        transition: 0.35s;
+    
+        margin-bottom: 0 !important;
+    }
+    // .learn:hover {
+    //     background-color:#f7b716;
+    //     border: 2px solid #f7b716;
+    //     color: #fffafa;
+    // }
+     
+ }
+
+ @media (max-width: 767px) {
+     .section4 {
+         text-align: center;
+     }
+ }
+ //close section4 VCE---------------
+
+
+ //business -------------------
+ .section5 {
+
+    color: #00318a;
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+    }
+
+    .learn {
+        background-color: #00318a;
+        -moz-border-radius: 39px;
+        -webkit-border-radius: 39px;
+        border-radius: 39px;
+        border: 2px solid #00318a;
+        display:inline-block;
+        cursor:pointer;
+        color: white;
+        font-family: Montserrat-Sem;
+        font-size: 14px;
+        padding: 7px 42px;
+        text-decoration:none;
+        transition: 0.35s;
+    
+        margin-bottom: 0 !important;
+    }
+    .learn:hover {
+        background-color:#f7b716;
+        border: 2px solid #f7b716;
+        color: white;
+    }
+
+ }
+
+ @media (min-width: 767px) {
+
+
+    .business2 {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .business1 {
+      display: none;
+    }
+
+    .section5 {
+        text-align: center;
+    }
+  }
+
+
+ //close business ---------------
+
+
+ //open upgrade ----------------------
+ .section6 {
+     background-color: #00318a;
+     color: white;
+
+     .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin-left: 0;
+    }
+
+     .learn {
+        background-color: white;
+        -moz-border-radius: 39px;
+        -webkit-border-radius: 39px;
+        border-radius: 39px;
+        border: 2px solid white;
+        display:inline-block;
+        cursor:pointer;
+        color: #00318a;
+        font-family: Montserrat-Sem;
+        font-size: 14px;
+        padding: 7px 42px;
+        text-decoration:none;
+        transition: 0.35s;
+    
+        margin-bottom: 0 !important;
+    }
+    .learn:hover {
+        background-color:#f7b716;
+        border: 2px solid #f7b716;
+        color: #fffafa;
+    }
+ }
+
+ @media (max-width: 767px) {
+     .section6 {
+         text-align: center;
+     }
+ }
+
+ //close upgrade--------------
+
+
+ .section7 {
+     
+     background-color: #f8f8f8;
+
+     h5 {
+        font-family: Montserrat-Sem;
+        color: #00318a;
+     }
+     
+     p {
+        font-family: Montserrat-Med;
+         color: #282828;
+     }
+     
+     img {
+         padding: 10px;
+        max-width: 150px;
+     }
+ }
+
+//------------------footer------------------------------
+
+ .mainfooter {
+    // background-color: #282828;
+    background-color: #292F36;
+
+
+     hr {
+        //  background-color: #13315C;
+        background-color: #96A2B0;
+     }
+
+    a {
+        text-decoration: none;
+        transition: all 500ms ease;
+    }
+
+    a p:hover {
+        color: #2ac4f3;
+    }
+
+     .col {
+         color: white;
+     }
+
+     h5 {
+        color: #DCE0E5;
+        // color: #c5c5c5;
+     }
+
+     p {
+        // color: #919191; 
+        color: #96A2B0;
+        transition: 0.35s;
+        font-family: Montserrat-Med;
+        font-size: 13px;
+        
+     }
+
+     span i {
+        letter-spacing: 16px;
+        transition: all 500ms ease;
+        // color: #989798;
+        color: #96A2B0;
+      }
+      span i:hover {
+      color: #2ac4f3;
+      }
+
+      .contact {
+          line-height: 32px;
+      }
+
+      .zybilogo {
+          max-width: 200px;
+      }
+
+
+   
+ }
+
+
+ .footerlast {
+    //  background-color: #222222;
+     background-color: #232528;
+    //  background-color: #333333;
+     padding: 10px;
+     font-family: Montserrat-Med;
+    //  color: #919191; 
+    color: #96A2B0;
+     font-size: 13px;
+
+     .notice {
+        
+         font-family: Montserrat-Light;
+     }
+
+ }
+
+
+@media (max-width: 575px) {
+    .mainfooter {
+        text-align: center !important;
+    }
+}
+
+//-----------DropDown Footer---------------------------------
+footer .dropdown a{
+    font-family: Montserrat-Med;
+    color: #919191; 
+    font-size: 13px;
+}
+
+footer .dropdown {
+    cursor: pointer;
+}
+
+footer .dropdown .terms:hover {
+    color: #2ac4f3;
+}
+
+
+
+  //-----------DropDown Footer-----------------------------------
+
+//PROMOS---------------------------------------------------------------------------------------------------------------
+
+.promosection1 {
+    background-color: #f8f8f8;
+
+   h5 {
+       font-family: Montserrat-Sem;
+   }
+
+   p {
+    font-family: Montserrat-Reg;
+   }
+}
+
+.promosection2 {
+    font-family: Montserrat-Sem;
+    background-color: white;
+
+    h3 {
+        color: #282828;
+    
+    }
+
+}
+
+.promo {
+    background-color: #00318a;
+    // background-color: #0f0f4c;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.read {
+    background-color: #2ac4f3;
+    -moz-border-radius: 39px;
+    -webkit-border-radius: 39px;
+    border-radius: 39px;
+    border: 2px solid #2ac4f3;
+    display:inline-block;
+    cursor:pointer;
+    color: white;
+    font-family: Montserrat-Sem;
+    font-size: 14px;
+    padding: 7px 42px;
+    text-decoration:none;
+    transition: 0.35s;
+
+    margin-bottom: 0 !important;
+}
+.read:hover {
+    background-color:#f7b716;
+    border: 2px solid #f7b716;
+    color: #fffafa;
+}
+
+.cardpromo {
+    display: inline-flex;
+    margin: auto;
+}
+
+//end PROMOS ----------------------------------------------------------------------------------------------------------
+
+//Upgrade-------------------------------------------------------------------------------------------------------------
+.upgradesection1 {
+
+    background-color: #f8f8f8;
+    color: #282828;
+
+    h4 {
+        font-family: Montserrat-Sem;
+        text-align: center;
+    }
+    .card-header {
+        font-family: Montserrat-Sem;
+    }
+ 
+    p {
+     font-family: Montserrat-Reg;
+    }
+
+    ul {
+        font-family: Montserrat-Reg;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+
+
+    font-family: Montserrat-Reg;
+
+    .textupgrade {
+        color: #00318a;
+    }
+  
+
+    .tierheaderbronze {
+        background-color: #dcb2a6;
+        color: white;
+    }
+
+    .limit {
+        font-size: 14px;
+        color: rgb(224, 6, 6);
+    }
+
+
+    .tierbodybronze {
+        
+        // background-color: #ddc4bf;
+        background-color: white;
+       
+    }
+
+    .tierheadersilver {
+        background-color: #b4b4b4;
+        color: white;
+
+
+        img {
+            max-width: 15%;
+            height: auto;
+        }
+    }
+
+    .tierbodysilver {
+        
+        // background-color: #d7d7d7;
+        background-color: white;
+       
+    }
+
+    .tierheadergold {
+        background-color: #eeb609;
+        color: white;
+
+
+        img {
+            max-width: 15%;
+            height: auto;
+        }
+    }
+
+    .tierbodygold {
+        
+        // background-color: #fcc201;
+        background-color: white;
+       
+    }
+
+    
+    .tierheaderplatinum {
+        // background-color: #bfb5b4;
+        background-color: #838383 ;
+        color: white;
+
+
+        img {
+            max-width: 15%;
+            height: auto;
+        }
+    }
+
+    .tierbodyplatinum {
+        
+        // background-color: #d7cdcc;
+        background-color: white;
+       
+    }
+ }
+
+
+//End Upgrade--------------------------------------------------------------------------------------------------------
+
+
+//--------businesssection1---------------------------------------------------------
+
+
+
+.bussinesssection1 {
+
+    
+    .numremit {
+        color: #00318a;
+    }
+
+    background-color: #f8f8f8;
+    color: #282828;
+
+    h4 {
+        font-family: Montserrat-Sem;
+    }
+    .card-header {
+        font-family: Montserrat-Sem;
+    }
+ 
+    p {
+     font-family: Montserrat-Reg;
+    }
+
+    ul {
+        font-family: Montserrat-Reg;
+    }
+
+    font-family: Montserrat-Reg;
+
+    .textupgrade {
+        color: #00318a;
+    }
+
+    h5 {
+        font-family: Montserrat-Sem;
+    }
+  
+
+ }
+
+ .bussinesssection2 {
+
+    
+    .numremit {
+        color: #00318a;
+    }
+
+    background-color: white;
+    color: #282828;
+
+    h4 {
+        font-family: Montserrat-Sem;
+    }
+    .card-header {
+        font-family: Montserrat-Sem;
+    }
+ 
+    p {
+     font-family: Montserrat-Reg;
+    }
+
+    ul {
+        font-family: Montserrat-Reg;
+    }
+
+    font-family: Montserrat-Reg;
+
+    .textupgrade {
+        color: #00318a;
+    }
+
+    h5 {
+        font-family: Montserrat-Sem;
+    }
+  
+
+ }
+
+
+
+ .bussline {
+    border: 2px solid #f7b716;
+    background-color: #f7b716;
+    width: 100px;
+
+}
+
+
+ .merchantreseller {
+    background-color: #f1f1f1;
+ }
+
+
+
+ .agent {
+    background-color: #f1f1f1;
+ }
+
+ @media (min-width: 768px) {
+
+    .merchantres2 {
+      display: none;
+    }
+
+    .agentbuss2 {
+        display: none;
+      }
+
+  }
+  @media (max-width: 767px) {
+    .merchantres1 {
+      display: none;
+    }
+
+    .merchantpartner {
+        display: none;
+    }
+
+    .agentbuss1 {
+        display: none;
+      }
+
+  }
+
+.joinvibertext {
+    color: #665CAC;
+
+}
+
+.vibericon {
+    height: 30px;
+}
+
+.vibertextqr {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.numviber {
+    color: #665CAC;
+}
+
+@media (min-width: 768px) {
+
+    .viberqr2 {
+      display: none;
+    }
+
+  }
+  @media (max-width: 767px) {
+    .viberqr1 {
+      display: none;
+    }
+
+  }
+
+
+//--------close businesssection1---------------------------------------------------------
+
+//services--------------------------------------------------------------------
+
+.servicessection1 {
+
+    .servicescard {
+        // background-color: #2ac4f3;
+       
+      a {
+          text-decoration: none;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          font-family: Montserrat-light;
+
+      }
+
+      a:hover {
+        color: #00318a;
+    
+    }
+  }
+
+
+
+    background-color: #f8f8f8;
+
+
+    .card-title {
+        font-family: Montserrat-Sem;
+        // color: #00318a;
+        color: #282828;
+     
+    }
+ 
+    .card-text {
+     font-family: Montserrat-Reg;
+    //  color: #00318a;
+    color: #282828;
+    }
+}
+
+.servicescard {
+  background-color: #ffffff;       
+}
+
+
+.servicesicon {
+  max-width: 80px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+//end services-------------------------------------------------------------------------------------------
+
+
+//help --------------------------------------------------------------------------------------------------
+
+.helpsection1 {
+
+    background-color: #f8f8f8;
+
+    h2 {
+        font-family: Montserrat-Sem;
+        color: #00318a;
+    }
+
+    p {
+        font-family: Montserrat-Reg;
+        font-size: 18px;
+    }
+    i {
+        color: #2ac4f3;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 60px;
+        margin: auto;
+    }
+
+    a {
+      text-decoration: none;
+    }
+}
+
+
+
+//close help-------------------------------------------------------------------------------------------------
+
+
+//---------billersection-------------------------
+
+.billers {
+    background-color: #00318a;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+    h1 {
+        font-family: Montserrat-Sem;
+        padding-top: 50px;
+        line-height: 60px;
+    }
+
+    .billerimg {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+}
+
+.billersection {
+
+    h1 .skip {
+        padding-top: 300px !important;
+    }
+
+
+
+    background-color: #f8f8f8;
+   
+    ul li {
+        font-family: Montserrat-Reg;
+ 
+    }
+
+    button {
+        -moz-border-radius: 39px !important;
+        -webkit-border-radius: 39px !important;
+        border-radius: 39px !important;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        margin: 8px;
+    
+    }
+
+    .nav-pills > li > button.active {
+        background-color: #00318a !important;
+        color: white;
+    }
+
+  
+
+    .nav-pills li .nav-link{
+   
+        color: #00318a;
+    }
+
+    .nav-pills li .nav-link:hover{
+        background-color: #00318a;
+        color: white;
+    }
+
+
+
+
+  
+
+    table {
+        font-family: Montserrat-Reg;
+    }
+
+
+}
+
+@media (max-width: 1399px) {
+    .billerimg {
+        padding-top: 20px;
+    }
+}
+   
+
+@media (max-width: 1199px) {
+    .billerimg {
+        padding-top: 60px !important;
+    }
+
+   h1 {
+       font-size: 40px;
+       line-height: 50px !important;
+   }
+
+}
+
+@media (max-width: 991px) {
+    
+    .billerimg {
+        padding-top: 20px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    
+ h1 {
+     text-align: center;
+ }
+}
+
+
+//------closebillersection------------------------
+
+//-----------------Buy Load-------------------------------
+
+.load {
+    background-color: #00318a;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+    h1 {
+        padding-top: 10px;
+        line-height: 60px;
+    }
+
+
+
+    p {
+        font-family: Montserrat-Light;
+    }
+
+}
+
+.loadsection {
+
+    background-color: #f8f8f8;
+
+    h2 {
+        line-height: 35px;
+        font-family: Montserrat-Med;
+        color: #282828;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+
+    .numremit {
+        color: #00318a;
+    }
+
+    p {
+        font-family: Montserrat-Reg;
+        overflow-wrap: break-word;
+   
+    }
+
+}
+
+
+//-----------------Transfer Section
+.transfersection {
+
+    background-color: #f8f8f8;
+
+    h2 {
+        line-height: 35px;
+        font-family: Montserrat-Med;
+        color: #282828;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+      
+    p {
+        font-family: Montserrat-Reg;
+        overflow-wrap: break-word;
+   
+    }
+
+    .numremit {
+        color: #00318a;
+    }
+}
+
+//-------------------------------close transfer section
+
+
+
+
+
+
+//----------------Close Buy Load------------------------------------------
+//------bigaten-------------------------------------------------------------------
+
+.bigatensection1 {
+    background-color: #f8f8f8;
+    ul {
+        list-style: none;
+    }
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 60px;
+        margin: auto;
+    }
+
+    .bluehiglight {
+        color: #00318a;
+    }
+
+    .numremit{
+        color: #00318a;
+    }
+}
+
+
+//close bigaten------------------------------------------------------------------
+
+
+
+
+//return to top------------------------------------------------------------
+#return-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+   
+    // background: rgba(247, 183, 22, 0.3);
+    background: rgba(42, 196, 243, 0.3);
+
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 99999 !important;
+}
+#return-to-top i {
+    color: #fff;
+    opacity: 0.5;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    // background: rgba(247, 183, 22, 1);
+    background: rgba(42, 196, 243, 1);
+   
+}
+#return-to-top:hover i {
+    color: #fff;
+    opacity: 1;
+    top: 5px;
+}
+
+
+
+
+
+
+  //terms and condition etc-----------------------------------------
+
+  .termssection1 {
+    background-color: #f8f8f8;
+  }
+
+  .outwardsection1 {
+    background-color: #f8f8f8;
+  }
+
+  .privacysection1 {
+    background-color: #f8f8f8;
+  }
+
+
+  //------how to-----------------
+
+
+  .howsection1 {
+    background-color: #f8f8f8;
+    
+
+    
+   h4 {
+    font-family: Montserrat-Reg;
+    line-height: 40px;
+   }
+    
+
+    .card-title {
+        font-family: Montserrat-Sem;
+  
+    }
+ 
+    .card-text {
+     font-family: Montserrat-Reg;
+
+    }
+  }
+
+  //------close how to-----------------
+
+  //----------------QRPH Header-----------------
+
+  .qrphheader {
+    background: url('../img/qrph/qrphbg.png') no-repeat center;
+    background-size: cover;
+    background-color: #00318a;
+    
+    color: white;
+    padding: 35px;
+    h2 {
+        color: white;
+        padding-top: 40px;
+        line-height: 40px;
+        font-family: Montserrat-Sem;
+    }
+
+    h3 {
+        font-family: Montserrat-Reg;
+    }
+}
+
+.qrphsection{
+    background-color: #f8f8f8;
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+    h2 {
+        line-height: 35px;
+        font-family: Montserrat-Med;
+        color: #282828;
+    }
+
+    
+    p {
+        font-family: Montserrat-Reg;
+        overflow-wrap: break-word;
+        text-align: center;
+    }
+
+    .numremit {
+        color: #00318a;
+    }
+
+}
+
+@media (max-width: 991px) {
+    
+    .qrphheader {
+        text-align: center;
+    }
+   }
+
+
+
+  //-------------------QRPH HEADER Close
+
+  //-----------------------------remittance
+
+  .remitheader {
+
+    background: url('../img/remittance/remittancebanner.jpg') no-repeat center;
+    background-size: cover;
+    padding: 1px;
+
+
+   
+
+    h2 {
+        color: white;
+        padding-top: 80px;
+        line-height: 40px;
+        font-family: Montserrat-Sem;
+    }
+
+
+  
+}
+
+.remitsection {
+    background-color: #f8f8f8;
+
+    .line {
+        border: 2px solid #f7b716;
+        background-color: #f7b716;
+        width: 100px;
+        margin: auto;
+    }
+
+    h2 {
+        line-height: 35px;
+        font-family: Montserrat-Med;
+        color: #282828;
+    }
+
+    h5 {
+        font-family: Montserrat-Sem;
+    }
+  
+    p {
+        font-family: Montserrat-Reg;
+        overflow-wrap: break-word;
+   
+    }
+
+
+
+    .numremit {
+        color: #00318a;
+    }
+    
+    .numremit2 {
+        color: red;
+    }
+
+
+}
+
+@media (max-width: 575px) {
+    
+    .remitheader {
+        text-align: center;
+    }
+   }
+
+   .bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+   
+.bs-callout-default {
+  
+    border-left-color: #00318a;
+}
+
+.bs-callout-default2 {
+    border-left-color: #f7b716;
+}
+
+
+
+  //-----------------------------end remittance
+
+  //------------CAsh IN------
+
+    .cashin {
+        background-color: #00318a;
+        text-align: center;
+        color: white;
+        padding: 20px;
+    
+        h1 {
+            padding-top: 10px;
+            line-height: 60px;
+        }
+    
+        p {
+            font-family: Montserrat-Light;
+        }
+
+        .cashinsection{
+            
+            p {
+                font-family: Montserrat-Light;
+            }
+
+
+                
+       
+
+        }
+
+
+   
+    
+    }
+
+
+
+
+
+  //-------End Cash in
+
+
+
+
+//----------------------------------modal----------------------
+
+.modal {
+    
+    .globe{  
+            background-color: #002279;
+            -moz-border-radius: 39px;
+            -webkit-border-radius: 39px;
+            border-radius: 39px;
+            border: 2px solid #002279;
+            display:inline-block;
+            cursor:pointer;
+            color: white;
+            font-family: Montserrat-Sem;
+            font-size: 14px;
+            padding: 10px 60px;
+            text-decoration:none;
+            transition: 0.35s;
+        
+            margin-bottom: 0 !important;
+
+        }
+    
+    .smart {
+        background-color: #029347;
+        border: 2px solid #029347;
+        -moz-border-radius: 39px;
+        -webkit-border-radius: 39px;
+        border-radius: 39px;
+        display:inline-block;
+        cursor:pointer;
+        color: white;
+        font-family: Montserrat-Sem;
+        font-size: 14px;
+        padding: 10px 60px;
+        text-decoration:none;
+        transition: 0.35s;
+    
+        margin-bottom: 0 !important;
+    }
+ 
+}
+
+.modal .globe:hover {
+    background-color:#fffafa;
+    border: 2px solid #fffafa;
+    color: #002279;
+}
+
+.modal .smart:hover {
+    background-color:#fffafa;
+    border: 2px solid #fffafa;
+    color: #029347;
+}
+
+
+
+
+//-----------------------------------close modal-----------------
+
+
+
+//--------------------------------payroll----------------------------------
+
+.payroll {
+  background-color: #002279;
+  color: white;
+  padding-top: 85px;
+
+  p {
+    font-family: Montserrat-Med;
+  }
+
+  .title {
+      font-family: Montserrat-Sem;
+      color: #2ac4f3;
+  }
+
+  ul li {
+    font-family: Montserrat-Light;
+  }
+
+  table td {
+      color: white;
+  }
+
+  .feel-free {
+      h5 {
+        font-family: Montserrat-Med;
+      }
+  }
+
+
+  .learn {
+    border: 1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color: white;
+    font-family: Montserrat-Sem;
+    font-size: 16px;
+    padding: 7px 42px;
+    text-decoration:none;
+    transition: 0.35s;
+
+    margin-bottom: 0 !important;
+}
+.learn:hover {
+    background-color:#f7b716;
+    border: 1px solid #f7b716;
+   
+    color: #002279;
+}
+
+}
+
+.cardpayroll {
+    p {
+        font-family: Montserrat-Light;
+    }
+}
+
+.logopayroll {
+    max-width: 300px;
+}
+
+
+//---------------------------------end payroll------------------------------
